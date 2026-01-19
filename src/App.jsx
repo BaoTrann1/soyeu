@@ -35,7 +35,7 @@ function App() {
       {
         id: 1,
         school: "Đại học Cần Thơ",
-        degree: "Kỹ sư Cơ Điện Tử",  "
+        degree: "Kỹ sư Cơ Điện Tử",  
         time: "2018 - 2022"
       }
     ]
