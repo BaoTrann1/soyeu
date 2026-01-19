@@ -39,7 +39,7 @@ function App() {
         time: "2018 - 2022"
       }
     ]
-  };
+  }; 
 
   // --- PHẦN 2: GIAO DIỆN (FULL MÀN HÌNH) ---
   return (
