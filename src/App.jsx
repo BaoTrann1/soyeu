@@ -3,26 +3,25 @@ import { useState } from 'react'
 function App() {
   // --- PHẦN 1: DỮ LIỆU (Bạn sửa thông tin ở đây) ---
   const myProfile = {
-    name: "Nguyễn Văn A",
+    name: "Nguyễn Dương Bảo Trấn",
     role: "Frontend Developer (React.js)",
     // Sử dụng link ảnh online để hiển thị ngay, bạn có thể thay bằng đường dẫn file ảnh trong máy sau
     avatar: "https://ui-avatars.com/api/?name=Nguyen+Van+A&background=0D8ABC&color=fff&size=200", 
     about: "Tôi là một lập trình viên đam mê tạo ra các giao diện web đẹp và dễ sử dụng. Tôi có 2 năm kinh nghiệm làm việc với React và luôn sẵn sàng học hỏi các công nghệ mới như Next.js và TypeScript.",
     contact: {
-      email: "email@example.com",
-      phone: "0909 123 456",
-      location: "TP. Hồ Chí Minh, Việt Nam",
-      linkedin: "linkedin.com/in/nguyenvana",
-      github: "github.com/nguyenvana"
+      email: "tranb2204212@student.ctu.edu.vn",
+      phone: "0834722194",
+      location: "Vĩnh Long, Việt Nam",
+      github: "https://github.com/BaoTrann1"
     },
     skills: ["React.js", "JavaScript", "Tailwind CSS", "Git/GitHub", "HTML5/CSS3", "Figma"],
     experiences: [
       {
         id: 1,
-        company: "Công ty Công nghệ ABC",
+        company: "Đại học Cần Thơ",
         role: "Frontend Developer",
         time: "2024 - Hiện tại",
-        description: "Phát triển giao diện Dashboard cho khách hàng sử dụng React. Tối ưu hóa hiệu năng trang web giúp tăng tốc độ tải trang lên 30%."
+        description: "Phát triển giao diện Dashboard cho khách hàng sử dụng React."
       },
       {
         id: 2,
@@ -35,8 +34,8 @@ function App() {
     education: [
       {
         id: 1,
-        school: "Đại học Công Nghệ",
-        degree: "Cử nhân Công nghệ thông tin",
+        school: "Đại học Cần Thơ",
+        degree: "Kỹ sư Cơ Điện Tử",  "
         time: "2018 - 2022"
       }
     ]
@@ -133,7 +132,7 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-20 pt-10 border-t border-gray-200 text-center text-gray-400 text-sm">
-          © 2026 {myProfile.name}. Built with React & Tailwind CSS.
+          © 2026 {myProfile.name}. 
         </footer>
 
       </main>
