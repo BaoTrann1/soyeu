@@ -31,15 +31,15 @@ function App() {
         description: "Tham gia xây dựng Landing page và hỗ trợ fix bug cho dự án thương mại điện tử."
       }
     ],
-    education: [
+    education: [  
       {
         id: 1,
         school: "Đại học Cần Thơ",
-        degree: "Kỹ sư Cơ Điện Tử",  
+        degree: "Kỹ sư Cơ Điện Tử",   
         time: "2018 - 2022"
       }
-    ]
-  }; 
+    ] 
+  };  
 
   // --- PHẦN 2: GIAO DIỆN (FULL MÀN HÌNH) ---
   return (
